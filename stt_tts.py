@@ -63,7 +63,7 @@ def listen_and_recognize(recognizer, source, retries=5):
             try:
                 text = recognizer.recognize_sphinx(audio)
                 if text.strip():
-                    print("📱 Used offline recognition")
+                    print(" Used offline recognition")
                     return text.strip()
             except:
                 pass
