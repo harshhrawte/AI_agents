@@ -5,7 +5,7 @@ import time
 # Initialize TTS engine with better settings
 engine = pyttsx3.init()
 engine.setProperty('rate', 180)  # Slower, clearer speech
-engine.setProperty('volume', 0.9)  # Louder volume
+engine.setProperty('volume', 0.9)  
 
 def speak(text):
     """Enhanced text-to-speech with better pronunciation"""
